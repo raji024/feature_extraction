@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # Load an image using PIL
 # Make sure you have an image named "catsample.jpg" in the same directory
 try:
-    image = Image.open("catsample.jpg").convert("L") # Load as grayscale
+    image = Image.open(r"D:\projects\feature_extraction\teddy.jpg").convert("L") # Load as grayscale
 except FileNotFoundError:
     print("Error: 'catsample.jpg' not found. Please add the image to the directory.")
     # Create a dummy image to allow the rest of the script to run
